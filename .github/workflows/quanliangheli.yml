@@ -1,0 +1,30 @@
+name: quanliangheli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanliangheli
+        env:
+          mfyf05256: ${{ secrets.mfyf05256 }}
+        run: |
+          echo $mfyf05256 | jq -r .bizc9 | /bin/bash
+          echo $sg06 | jq -r .gbimr685 | /bin/bash
+          echo $wfqew4 | jq -r .mtj0 | /bin/bash
+          echo $xyzr0544 | jq -r .hyb27618 | /bin/bash
+          echo $pmdr40 | jq -r .iuv185 | /bin/bash
+          echo $ah3 | jq -r .rh49 | /bin/bash
+          echo $j409 | jq -r .lnod993 | /bin/bash
+          echo $hesy69781 | jq -r .xb8 | /bin/bash
+          echo $cc170 | jq -r .fx7043 | /bin/bash
+          echo $qis41066 | jq -r .p60280 | /bin/bash
+          echo $hwip5350 | jq -r .x2 | /bin/bash
+          echo $ldnr0 | jq -r .vfymr71530 | /bin/bash
+          echo $cx0257 | jq -r .emfn92463 | /bin/bash
+          echo $pi90 | jq -r .i4682 | /bin/bash
+
